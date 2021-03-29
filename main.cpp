@@ -26,9 +26,12 @@
 using namespace std;
 
 
-int main()
+int main(int argc, char **argv)
 {
     std::setlocale(LC_ALL, ENCONDING_UTF8);
+    if (argc > 1) {
+        std::setlocale(LC_ALL, argv[1]);
+    }
     dictionaryParameters dict = readDictionary(INPUT_FREQUENCIES_DATA);
     std::string ss = GAME_LOGO;
     std::wstring logo = readFile(ss.c_str());

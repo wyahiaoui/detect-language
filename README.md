@@ -2,6 +2,12 @@
 
 Detect language using statistics, The program read the file located in data and use the given frequencies, This file has to have the CSV separated by a comma ','
 
+## Encoding 
+As the program handles several languages, it was mecessary to use more suitable encoding than the standard ascii. The program use the en_US.utf8. Please check the enviromment variable LANG and ensure that the package is installed in the machine or give the desired encoding the program argument. 
+
+### Example 
+./detect_language $LANG
+
 ## Implementation 
 
 The program has been implemented in C++ because it is optimal and can show the programming skills, especially the exercise is quite challenging and makes fun 
