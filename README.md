@@ -5,6 +5,7 @@ Detect language using statistics, The program read the file located in data and 
 ## Implementation 
 
 The program has been implemented in C++ because it is optimal and can show the programming skills, especially the exercise is quite challenging and makes fun 
+The program was compiled with gcc 10.2 and tested for clang but it should work as well for Mingw or cygwin because it uses only POSIX.
 
 ## Method
 
